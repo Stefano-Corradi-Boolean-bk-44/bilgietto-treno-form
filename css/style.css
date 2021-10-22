@@ -1,0 +1,40 @@
+body{
+  background-color: darkslategray;
+  color: white;
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+.box-insert{
+  background-color: #3D604F;
+  border-radius: 10px;
+  border: 1px solid #01384F;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+input:focus{
+  
+}
+
+input:focus, select:focus{  
+  background-color: #3D604F !important;
+  color: white !important;
+}
+
+input:focus::placeholder{
+  color: white;
+}
+
+th, td{
+  color: white;
+  text-align: center;
+}
+
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
